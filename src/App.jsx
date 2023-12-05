@@ -1,10 +1,17 @@
 import "./index.css";
+import Logo from "./components/Logo";
+import Hero from "./components/Hero";
+import MobileImage from "./components/MobileImage";
 
 const App = () => {
   return (
-    <div>
-      <p className="text-3xl font-bold underline">Hello world</p>
-    </div>
+    <>
+      <div>
+        <Logo />
+        <MobileImage />
+        <Hero />
+      </div>
+    </>
   );
 };
 
