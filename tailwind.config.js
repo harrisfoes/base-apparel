@@ -6,11 +6,19 @@ export default {
       "des-red": "hsl(0, 36%, 70%)",
       "soft-red": "hsl(0, 93%, 68%)",
       "neutral-grey": "hsl(0, 6%, 24%)",
+      "f-1": "hsl(0, 0%, 100%)",
+      "t-1": "hsl(0, 100%, 98%)",
+      "f-2": "hsl(0, 80%, 86%)",
+      "t-2": "hsl(0, 74%, 74%)",
     },
     fontFamily: {
       Josefin: ["Josefin Sans", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      dropShadow: {
+        softored: ["0 25px 25px hsla(0, 93%, 68%, 0.25)"],
+      },
+    },
   },
   plugins: [],
 };
