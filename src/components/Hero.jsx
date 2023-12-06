@@ -34,6 +34,8 @@ function Hero() {
     if (error) {
       return {
         borderColor: "red",
+        borderWidth: "2px",
+        outlineColor: "red",
       };
     }
   };
