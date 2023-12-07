@@ -14,7 +14,7 @@ const App = () => {
           <HeroImage image={mobileHeroImg} />
         </div>
 
-        <div className="container m-auto lg:flex lg:justify-end md:gap-20 xl:gap-52 w-screen">
+        <div className="max-w-[1440px] mx-auto lg:flex lg:justify-between md:pl-8 lg:pl-12">
           <div className="logo-hero-container lg:flex-en">
             <div className="hidden lg:block lg:mx-12">
               <Logo />
